@@ -462,12 +462,8 @@ void orderPlacedDialogue(BuildContext context){
                             height: 6.4.h,
                             color: AppColors.secondaryColor,
                             onTap: (){
-                              //Get.offAll(()=>RootScreen());
                               designController.resetAllCounts();
-                              Navigator.pop(context);
-                              Navigator.pop(context);
-                              Navigator.pop(context);
-                              designController.resetAllCounts();
+                              Get.offAll(()=>RootScreen());
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,

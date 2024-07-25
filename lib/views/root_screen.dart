@@ -88,9 +88,7 @@ class RootScreen extends StatelessWidget {
                          )
                      ),
                      IconButton(
-                         onPressed: (){
-                           appAnimationController.toggleScreen();
-                         },
+                         onPressed: (){},
                          icon: Transform.rotate(
                            angle: 3.1,
                            child: Icon(
